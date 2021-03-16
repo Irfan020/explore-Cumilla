@@ -361,3 +361,27 @@ background-color: black;
 .logo-text .logo-span {
   color: #a2c376;
 }
+@media(max-width:1000px){
+ .services{
+  padding: 2% 5% 0px 5%;
+ }
+ .box-container{
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .services{
+  height: auto;
+ }
+ .box-1,.box-2,.box-3{
+  flex-grow: 1;
+  margin: 10px;
+ }
+ .contact-me{
+  height: 200px;
+ }
+@media(max-width:750px){
+ .services-text{
+  width: 100%;
+ }
+ 
+}
